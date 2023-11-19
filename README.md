@@ -53,7 +53,7 @@ Ainsi, des morceaux de code ont été **repris** de ces sources, **modifiés** e
 
 ## Ce qui a moins bien marché et qu'il faudrait modifier/compléter
  - Les services nouvellement créés n'ont **pas de noms propres**, le seul moyen d'en avoir un est de renommer les *Unknown Service* directement sur l'application en faisant une **édition de leur nom** via un appui prolongé sur ceux-ci.
- - La chaine de caractères lue pour la version du système n'est **pas affichée correctement** car elle semble être précédée de sa conversion via la table ASCII.
+ - La chaine de caractères lue pour la version du système et la valeur 42 envoyée pour la caractéristique Button ne sont **pas affichées correctement** car elles semblent être précédées de leur conversion via la table ASCII.
  - Il faudrait brancher un **haut-parleur** à la carte pour mettre en œuvre le buzzer sans le simuler avec une LED.
  - Des **warnings** s'affichent lors du build mais **n'empêchent pas** la compilation, il faudrait étudier leur origine et essayer de les supprimer.
 
