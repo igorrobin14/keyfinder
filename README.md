@@ -57,6 +57,7 @@ Ainsi, des morceaux de code ont été **repris** de ces sources, **modifiés** e
  - Il n'est actuellement pas possible d'envoyer une autre valeur qu'un ```true``` sur le téléphone (ex : le nombre 42).
  - La chaine de caractères lue pour la version du système n'est **pas affichée correctement** car elle semble être précédée de sa conversion via la table ASCII.
  - Il faudrait brancher un **haut-parleur** à la carte pour mettre en œuvre le buzzer sans le simuler avec une LED.
+ - Des **warnings** s'affichent lors du build mais **n'empêchent pas** la compilation, il faudrait étudier leur origine et essayer de les supprimer.
 
 ## Informations utiles
  - Afin de s'y **retrouver**, bien penser à **renommer** les **services et caractéristiques** sur l'application nRF Connect en se basant sur leurs **UUIDs** présents dans le fichier ```tableau_services_caractertistiques.xlsx```.
