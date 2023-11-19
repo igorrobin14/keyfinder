@@ -26,7 +26,7 @@
  - ``` tableau_services_caracteristiques.xlsx ``` - Tableau Excel des **services et caractéristiques** personnalisés implémentés
 
 ###
-*Utilisation : mettre tous les fichiers dans le* ```src``` *de l'application nRF Connect sur Visual Studio Code une fois qu'elle à été créée sauf le prf.conf et le CMakeLists.txt qui doivent remplacer ceux proposés de base par Visual Studio Code*
+*Utilisation : créer une nouvelle application via l'extension nRF Connect dans Visual Studio Code, créer une blank application, créer une build configuration, copier tous les fichiers sauf le* ```prj.conf``` *et le* ```CMakeLists.txt``` *dans le répertoire* ```src```, *remplacer le* ```prj.conf``` *et le* ```CMakeLists.txt``` *dans le répertoire parent avec ceux téléchargés, et faire un pristine build, penser à actualiser Visual Studio Code*.
 
 ## Introduction
 Le but de ces deux dernières séances de Design était de simuler un **keyfinder** de chez Action grâce à la carte **nRF52 DK** de Nordic Semiconductors en le dotant de propriétés telles que **l'allumage d'une LED** au moment désiré via le téléphone, le **déclenchement d'un buzzer** (simulé ici par le clignotement d'une LED 20 fois), la lecture de la **version** fictive du système (v4.2), **l'envoi d'information** sur le téléphone quand un bouton est appuyé sur la carte et enfin le passage en mode **Debug** depuis le téléphone.
